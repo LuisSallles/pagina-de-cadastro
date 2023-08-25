@@ -21,15 +21,23 @@
                 <h1 class="content-title">Manage your freelance<br> business with us!</h1>
                 <p class="content-paragraph">Takes less than 10 minutes to fill out all the information<br>needed to register your business.</p>
                 <section class="content-input">
-                    <p><input class="input" type="text" name="textname" id="txtname" value="Full Name"></p>
-                    <p><input class="input" type="email" name="txtemail" id="txtemail" value="E-mail or Phone"></p>
-                    <p><input class="input" type="password" name="txtpass" id="txtpass"></p>
-                    <p><input class="input" type="password" name="txtpass2" id="txtpass2"></p>
+                    <p><input class="input" type="text" name="textname" id="txtname"></p>
+                    <p><input class="input" type="email" name="txtemail" id="txtemail"></p>
+                    <p><input class="input" type="number" name="txtpass" id="txtpass"></p>
+                    <p><input class="input" type="number" name="txtpass2" id="txtpass2"></p>
                 </section>
+                <!-- Check -->
                 <p class="content-check"><input class="check" type="checkbox" name="txtcheck" id="txtcheck"> I agree to the terms of service</p>
+
+                <div id="res">
+                    
+                </div>
+
                 <!-- Buttons -->
-                <p><input class="content-button" type="button" value="Sign up"> 
-                <input class="content-button" type="button" value="Sign in"></p>
+                <p class="content-button">
+                    <input class="button" type="button" value="Sign up" onclick="check()"> 
+                    <input class="button" type="button" value="Sign in">
+                </p>
             </div>
         </section>
     </main>
